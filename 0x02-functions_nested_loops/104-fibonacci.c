@@ -48,5 +48,5 @@ int main(void)
 	}
 	printf("\n");
 
-	retur (0);
+	return (0);
 }
