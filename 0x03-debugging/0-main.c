@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
-* main - Prints a random number and stated whether
-* it is positive, negative or zero
+* main - tests function that prints if integer is positive or negative
 *
-* Return: Always 0.
+* Return: 0
 */
 int main(void)
 {
-	int i
-		
-		if (i > 0)
-			_putchar("%i is positive\n", n);
-		else if (n < 0)
-			_putchar("%i is negative\n", n);
+	int i;
 
-		else
-			_putchar("%i is zero\n", n);
+	if (i > 0)
+		_putchar("%d is positive\n", i);
+	else if (n < 0)
+		_putchar("%d is negative\n", i);
+
+	else
+		_putchar("%d is zer\n, i);
 
 	return (0);
 }
