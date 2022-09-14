@@ -9,13 +9,8 @@ int main(void)
 {
 	int i;
 
-	if (i > 0)
-		_putchar("%d is positive\n", i);
-	else if (n < 0)
-		_putchar("%d is negative\n", i);
-
-	else
-		_putchar("%d is zer\n, i);
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
