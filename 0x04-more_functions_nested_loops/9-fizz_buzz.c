@@ -26,7 +26,7 @@ int main(void)
 				printf("FizzBuzz");
 		}
 		else
-			print(" ");
+			print("%d", num);
 	}
 	printf("\n");
 	return (0);
