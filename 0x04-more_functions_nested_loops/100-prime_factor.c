@@ -7,21 +7,18 @@
 */
 int main(void)
 {
-	long prime 612852475143, div;
+	unsigned long num = 612852475143;
+	unsigned long div = 2;
 
-	while (div < (prime / 2))
+	while (div < num)
 	{
-		if ((prime % 2) == 0)
+		if (num % div == 0)
 		{
-			prime /= 2;
-			continue;
+			num /= div;
+			div = 2;
 		}
-
-		for (div = 2; div < (prime / 2); div += 2)
-		{
-			if ((prime % div) == 0)
-				prime /= div;
-		}
+		else
+			div++;
 	}
 
 	printf("%ld\n", prime);
