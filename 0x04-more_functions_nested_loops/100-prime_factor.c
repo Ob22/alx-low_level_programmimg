@@ -21,7 +21,7 @@ int main(void)
 			div++;
 	}
 
-	printf("%ld\n", prime);
+	printf("%lu\n", prime);
 
 	return (0);
 }
