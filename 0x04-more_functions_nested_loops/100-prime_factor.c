@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	unsigned prime 612852475143, div;
+	long prime 612852475143, div;
 
 	while (div < (prime / 2))
 	{
