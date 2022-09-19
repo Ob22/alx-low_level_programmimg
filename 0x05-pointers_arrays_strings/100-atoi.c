@@ -6,8 +6,13 @@
 * Return: Always 0.
 */
 
-int _atoi(char *s)
+i  nt _atoi(char *s)
 {
+	int b = 0, convert = 0;
 
-	return (0);
+	for (b = 0; s[b] != '\0'; b++)
+	{
+		convert = convert * 10 + s[b] - '0';
+	}
+	return (convert);
 }
