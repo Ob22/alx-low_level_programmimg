@@ -6,7 +6,7 @@
 * Return: Always 0.
 */
 
-i  nt _atoi(char *s)
+int _atoi(char *s)
 {
 	int b = 0, convert = 0;
 
