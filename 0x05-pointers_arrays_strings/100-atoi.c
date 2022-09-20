@@ -30,13 +30,10 @@ int _atoi(char *s)
 			dig = s[a] - '0';
 			if (b % 2)
 				dig = -dig;
-			if (b / 2)
-				dig = +dig;
 			c = c * 10 + dig;
 			d = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
-			d = 0;
 		}
 		a++;
 	}
