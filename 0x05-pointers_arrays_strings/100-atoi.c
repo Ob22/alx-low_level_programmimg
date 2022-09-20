@@ -22,7 +22,7 @@ int _atoi(char *s)
 
 	while (a < leng && d == 0)
 	{
-		if (s[a] == "-+")
+		if (s[a] == '-')
 			b++;
 
 		if (s[a] >= '0' && s[a] <= '9')
@@ -30,6 +30,8 @@ int _atoi(char *s)
 			dig = s[a] - '0';
 			if (b % 2)
 				dig = -dig;
+			if (b / 2)
+				dig = +dig;
 			c = c * 10 + dig;
 			d = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
