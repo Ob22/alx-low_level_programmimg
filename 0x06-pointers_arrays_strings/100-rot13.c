@@ -23,7 +23,7 @@ char *rot13(char *r)
 			if (r[a] == toswap[b])
 			{
 				r[a] = r[a] + rot_c;
-				b = 51;
+				b == 51;
 			}
 		rot_c = rot_c * -1;
 		}
