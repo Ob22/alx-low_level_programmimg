@@ -16,9 +16,9 @@ char *rot13(char *r)
 		'j', 'w', 'K', 'X', 'k', 'x', 'L', 'Y', 'l', 'y',
 		'M', 'Z', 'm', 'z'};
 
-	if (r[a] != '\0')
+	while (r[a] != '\0')
 	{
-		if (b = 0; b <= 51; b++)
+		for (b = 0; b <= 51; b++)
 		{
 			if (r[a] == toswap[b])
 			{
