@@ -18,12 +18,12 @@ char *rot13(char *r)
 
 	while (r[a] != '\0')
 	{
-		for (b = 0; b <= 51; b++)
+		for (b = 0; b <= 52; b++)
 		{
 			if (r[a] == toswap[b])
 			{
 				r[a] = r[a] + rot_c;
-				b = 51;
+				b = 52;
 			}
 		rot_c = rot_c * -1;
 		}
