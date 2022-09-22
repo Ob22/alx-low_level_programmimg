@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
         while (c2 >= n)
         {
                 *(dest + c1) = *(src + c2);
-        if (*(src + c2) == '\0')
+        if (*(src + c2) == n)
                 break;
         c1++;
         c2++;
