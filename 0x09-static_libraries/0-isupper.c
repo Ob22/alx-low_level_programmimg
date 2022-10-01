@@ -6,6 +6,7 @@
 * @c: input
 * Return: 1 if character is uppercase, otherwise 0.
 */
+
 int _isupper(int c)
 {
 	return (0);
