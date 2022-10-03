@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* _strdup - function that returns a pointer to a newly 
+* _strdup - function that returns a pointer to a newly
 * allocated space in memory
 * @str: input string
 * Return: pointer to duplicate string or NULL if failure
@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	while (str[a] != 0)
 		a++;
 	a++;
-	pstr = malloc(sizeof(char) * a);
+	pstr = malloc(sizeof(char) + a);
 	for (a = 0; str[a] != 0; a++)
 		pstr[a] = str[a];
 	pstr[a] = 0;
