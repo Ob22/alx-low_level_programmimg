@@ -6,7 +6,7 @@
 * wordnos - counts No. of words in a given string
 * @s: pointer to the string
 *
-* Return: No. of words in the string (int)
+* Return: No. of words in the string
 */
 
 int wordnos(char *s)
