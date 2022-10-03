@@ -20,7 +20,7 @@ char *_strlen(char *s)
 }
 
 /**
-* _strdup - function to return pointer to string
+* *_strdup - function to return pointer to string
 * @str: pointer to string array input
 *
 * Return: pointer to string created
