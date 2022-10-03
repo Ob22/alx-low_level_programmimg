@@ -10,7 +10,7 @@
 in memory with both strings or NULL
 */
 
-char *str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *pstr;
 	unsigned int len1, len2, size, a, b;
