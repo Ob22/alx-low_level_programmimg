@@ -24,6 +24,4 @@ char *_strdup(char *str)
 		pstr[a] = str[a];
 	pstr[a] = 0;
 	return (pstr);
-	else
-		return (NULL);
 }
