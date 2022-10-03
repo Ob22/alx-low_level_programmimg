@@ -33,13 +33,13 @@ char *str_concat(char *s1, char *s2)
 	a = 0;
 	while (a < len1)
 	{
-		pstr[a] = s1[a];
+		pstr[a] = s1[a];
 		a++;
 	}
 	b = 0;
 	while (a <= size)
 	{
-		pstr[a] = s2[b];
+		pstr[a] = s2[b];
 		a++;
 		b++;
 	}
